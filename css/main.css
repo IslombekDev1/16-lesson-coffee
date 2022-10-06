@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: Fraunces;
+}
+
+body {
+  background: #F2F2F2;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+header {
+  padding-top: 44px;
+  margin-bottom: 136px;
+}
+header .menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 44px;
+}
+header .menu nav ul {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+header .menu nav ul li a {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+}
+header .menu nav ul li a:hover {
+  padding: 10px;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+}
+header .hero {
+  color: white;
+  padding: 117px 0 116px 85px;
+  background-image: url(../img/coffee-bg-img.png);
+  background-repeat: no-repeat;
+}
+header .hero_p1 {
+  width: 493px;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  padding-bottom: 32px;
+}
+header .hero_p2 {
+  width: 445px;
+  font-family: "Barlow";
+  line-height: 26px;
+  opacity: 0.8;
+  padding-bottom: 71px;
+}
+header .hero button {
+  padding: 15px 31px;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  background: #0E8784;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+header .hero button:hover {
+  background-color: white;
+  color: #0E8784;
+  border: 3px solid #0E8784;
+}
+
+.types-of-coffee-section {
+  margin-bottom: 200px;
+}
+.types-of-coffee-section_bg {
+  font-weight: 900;
+  font-size: 150px;
+  line-height: 72px;
+  opacity: 0.5;
+  color: #83888F;
+  background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
+  text-align: center;
+}
+.types-of-coffee-section_flex {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.types-of-coffee-section_flex .types-of-coffee {
+  width: 255px;
+  text-align: center;
+  position: relative;
+}
+.types-of-coffee-section_flex .types-of-coffee img {
+  width: 255px;
+  height: 193px;
+}
+.types-of-coffee-section_flex .types-of-coffee_p1 {
+  margin-top: 72px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+  margin-bottom: 24px;
+}
+.types-of-coffee-section_flex .types-of-coffee_p2 {
+  width: 255px;
+  font-family: "Barlow";
+  line-height: 26px;
+  color: #333D4B;
+}
+
+.group12 {
+  padding-top: 100px;
+  border-radius: 10px;
+  background: #2C343E;
+}
+.group12_h2 {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #FEFCF7;
+}
+.group12_p1 {
+  width: 540px;
+  margin: 32px auto 0px;
+  font-family: Barlow;
+  line-height: 26px;
+  text-align: center;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.group12_flex {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.group12_flex_group10 {
+  position: relative;
+  top: 86px;
+  width: 350px;
+  padding: 72px 48px 48px;
+  text-align: center;
+  border-radius: 8px;
+  background: #0E8784;
+}
+.group12_flex_group10 img {
+  margin-bottom: 56px;
+}
+.group12_flex_group10_p1 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FEFCF7;
+  margin-bottom: 24px;
+}
+.group12_flex_group10_p2 {
+  line-height: 26px;
+  color: #FEFCF7;
+}
+
+.group17-section {
+  margin-top: 351px;
+  margin-bottom: 100px;
+}
+.group17-section_p {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  margin-bottom: 80px;
+}
+.group17-section_aylanaBox {
+  width: 761px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 67px;
+}
+.group17-section_aylanaBox_aylana {
+  position: relative;
+  z-index: 1;
+  width: 21px;
+  height: 21px;
+  border-radius: 20px;
+  background: #FEFCF7;
+  border: 2px solid #0E8784;
+}
+.group17-section_aylanaBox_aylana:hover {
+  border: 2px solid yellow;
+  background-color: green;
+}
+.group17-section_aylanaBox hr {
+  position: absolute;
+  width: 760px;
+  border: 0.5px solid #FDD6BA;
+}
+.group17-section_flex {
+  display: flex;
+  gap: 95px;
+}
+.group17-section_flex_p1 {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FDD6BA;
+}
+.group17-section_flex_p2 {
+  width: 255px;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+  margin: 38px 0 42px;
+}
+.group17-section_flex_p3 {
+  width: 285px;
+  line-height: 26px;
+  color: #333D4B;
+  margin-bottom: 64px;
+}
+.group17-section_flex button {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  padding: 15px 31px;
+  color: #FEFCF7;
+  background: #0E8784;
+  border: transparent;
+  border-radius: 6px;
+}
+.group17-section_flex button:hover {
+  background-color: white;
+  color: #0E8784;
+  border: 3px solid #0E8784;
+}
+
+footer .ft-flex {
+  display: flex;
+  padding: 48px 85px;
+  align-items: center;
+  background-color: #333D4B;
+}
+footer .ft-flex_nav {
+  margin-left: 103px;
+}
+footer .ft-flex_nav ul {
+  display: flex;
+  gap: 33px;
+}
+footer .ft-flex_nav ul li a {
+  font-family: "Barlow";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+}
+footer .ft-flex_nav ul li a:hover {
+  padding: 10px;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+}
+footer .ft-flex_nav2 {
+  margin-left: auto;
+}
+footer .ft-flex_nav2 ul {
+  display: flex;
+  gap: 24px;
+}
+footer .ft-flex_nav2 ul li a {
+  color: white;
+}
+footer .ft-flex_nav2 ul li a:hover {
+  color: red;
+  padding: 5px;
+}
+
+/*# sourceMappingURL=main.css.map */
